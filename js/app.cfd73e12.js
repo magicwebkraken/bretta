@@ -237,7 +237,7 @@
             C = {
                 href: "#gallery"
             },
-           
+
             M = {
                 class: "coming-soon hidden-xs"
             },
