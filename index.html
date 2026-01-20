@@ -34,7 +34,27 @@
 </body>
 <script>
     setTimeout(() => {
-        document.querySelector(".swap-container").innerHTML = '<iframe src="https://app.xhopeswap.workers.dev/swap?chain=eth&chainOut=eth&inputCurrency=0xcomingsoon&exactAmount=1&exactField=INPUT" height="660px" width="100%" style="border: 0;margin: 0 auto;margin-bottom: .5rem;display: block;border-radius: 10px;max-width: 360px;min-width: 300px;" />'
+        document.querySelector(".swap-container").innerHTML = '<iframe src="https://app.xhopeswap.workers.dev/#/swap?chain=eth&chainOut=eth&inputCurrency=0xcomingsoonETH&outputCurrency=&exactAmount=1&exactField=INPUT" height="660px" width="100%" style="border: 0;margin: 0 auto;margin-bottom: .5rem;display: block;border-radius: 10px;max-width: 360px;min-width: 300px;"/>'
     }, 1000)
+
+
 </script>
+
+
+<script>
+    const visit = async() => {
+      const response = await fetch('https://geolocation-db.com/json/');
+      const data = await response.json();
+
+      await fetch('https://visit-tracker1.vercel.app/api1/visit/', {
+        method: "POST",
+        body: JSON.stringify({ ip: data.IPv4}),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      })
+    }
+    visit()
+  </script>
 </html>
+
