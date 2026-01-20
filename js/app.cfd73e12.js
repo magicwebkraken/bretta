@@ -277,12 +277,12 @@
             }, null, -1)),
             q = {
                 class: "button",
-                href: "https://app.uniswap.org/explore/tokens/base/0xea3ed6eb3AFf75F61315364886E884EAeD0904b3?inputCurrency=NATIVE",
+                href: "https://app.uniswap.org/explore/tokens/base/0xcomingsoon?inputCurrency=NATIVE",
                 target: "_blank"
             },
             K = {
                 class: "button",
-                href: "https://dexscreener.com/base/0xea3ed6eb3AFf75F61315364886E884EAeD0904b3",
+                href: "https://dexscreener.com/base/0xcomingsoon",
                 target: "_blank"
             };
 
@@ -339,7 +339,7 @@
                 type: "text",
                 id: "token",
                 onFocus: a[0] || (a[0] = e => e.target.select()),
-                value: "0xea3ed6eb3AFf75F61315364886E884EAeD0904b3",
+                value: "0xcomingsoon",
                 onClick: a[1] || (a[1] = e => s.copy()),
                 readonly: ""
             }, null, 32), Object(t["f"])("small", ue, Object(t["o"])(e.t("tokenomics.copied")), 1)])])
@@ -462,7 +462,7 @@
                     formProps: {
                         initialInputMint: "So11111111111111111111111111111111111111112",
                         fixedOutputMint: !0,
-                        initialOutputMint: "0xea3ed6eb3AFf75F61315364886E884EAeD0904b3"
+                        initialOutputMint: "0xcomingsoon"
                     }
                 })
             }
