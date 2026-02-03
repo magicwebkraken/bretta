@@ -539,7 +539,7 @@
             ma = r.n(ca),
             la = r("c1b4"),
             ua = r.n(la);
-        const ha = Object(t["g"])('<div class="container text-center" data-v-6835b5c3><h5 data-v-6835b5c3><a href="mailto:brettacc@gmail.com" data-v-6835b5c3>brettacc@gmail.com</a></h5><a href="https://t.me/base_bretta" target="_blank" data-v-6835b5c3><img src="' + na.a + '" data-v-6835b5c3></a><a href="https://x.com/Base_Bretta" target="_blank" data-v-6835b5c3><img src="' + ia.a + '" data-v-6835b5c3></a></div>', 1),
+        const ha = Object(t["g"])('<div class="container text-center" data-v-6835b5c3><h5 data-v-6835b5c3><a href="mailto:brettacc@gmail.com" data-v-6835b5c3>brettacc@gmail.com</a></h5><a href="https://t.me/base_bretta" target="_blank" data-v-6835b5c3><img src="' + na.a + '" data-v-6835b5c3></a><a href="https://x.com" target="_blank" data-v-6835b5c3><img src="' + ia.a + '" data-v-6835b5c3></a></div>', 1),
             ba = [ha];
 
         function ya(e, a, r, o, n, s) {
